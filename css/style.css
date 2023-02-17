@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Alata;
+    src: url(../font/Alata-Regular.ttf);
+}
+@font-face {
+    font-family: ConcertOne;
+    src: url(../font/ConcertOne-Regular.ttf);
+}
+@font-face {
+    font-family: PressStart2P;
+    src: url(../font/PressStart2P-Regular.ttf);
+}
+body{
+    background-color: rgb(31, 41, 51);
+}
+.navbar{
+    background-color: rgb(25, 35, 45) !important;
+}
+h1{
+    color: #DFDFDF;
+    font-family: Alata !important;
+}
+.icon{
+    width: 45px;
+}
+p{
+    color: #DFDFDF !important;
+    font-family: Alata !important;
+}
+.footer{
+    background-color: rgb(25, 35, 45) !important;
+}
+.card{
+    background-color: rgb(25, 35, 45) !important;
+}
+#main{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main h5{
+    color: #DFDFDF !important;
+    font-family: Alata !important;
+}
+.capture{
+    max-width: 100%;
+}
+.dell{
+    max-width: 30vh !important;
+}
+.carte{
+    min-width: 50%;
+    max-width: 80%;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr" class="h-100">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/icon.png" type="image/png">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script defer src="../js/bootstrap.js"></script>
+
+    <meta property="og:site_name" content="Guillarda" />
+    <meta property="og:title" content="Guillarda | Nginx Proxy Manager" />
+    <meta property="og:image" content="https://guillarda.fr/img/icon.png" />
+    <meta property="og:url" content="https://guillarda.fr/project/npm.html" />
+
+    <title>Guillarda | Nginx Proxy Manager</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
+      <div class="container-xl">
+        <img class="icon" src="../img/icon.png" alt="icone">
+        <a class="navbar-brand" href="../">Guillarda</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../me.html">Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <div id="main" class="text-center">
+        <p></p>
+        <p>Bon, Nginx Proxy Manager c'est quoi ? Tout simplement c'est un reverse proxy qui se gère avec une joli interface Web et qui est simple d'utilisation, si vous vous demander en quoi j'ai besoins de ce système c'est tout simplement car j'ai une seule ip public et que tout mes serveurs web sont héberger dessus et que je ne peux donc pas avoir le port 80 (HTTP) et 443 (HTTPS) ouvert depuis l'extérieur sur plusieurs machine différentes donc je me retrouvais bloqué a n'avoir qu'un seul serveur web qui avait un certificat SSL et les autres était en HTTP sur des ports différents</p>
+        <p>Voici une image de l'interface web de gestion :</p>
+        <img class="capture" src="../img/npm/interface1.png">
+        <p></p>
+        <img class="capture" src="../img/npm/interface2.png">
+        <p></p>
+        <p>Comme vous le voyez l'interface est plutot intuitive d'utilisation</p>
+        <p>Pour plus d'informations a propos de Nginx Proxy Manager voici ici même le lien : <a href="https://nginxproxymanager.com/">https://nginxproxymanager.com/</a></p>
+    </div>
+    <!-- End of Main -->
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">Guillarda 2023</span>
+      </div>
+    </footer>
+  </body>
+</html>
