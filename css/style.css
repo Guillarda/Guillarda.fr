@@ -1,37 +1,48 @@
-@font-face {
-    font-family: Alata;
-    src: url(../font/Alata-Regular.ttf);
-}
-@font-face {
-    font-family: ConcertOne;
-    src: url(../font/ConcertOne-Regular.ttf);
-}
-@font-face {
-    font-family: PressStart2P;
-    src: url(../font/PressStart2P-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Concert One', sans-serif;
+font-family: 'Alata', sans-serif;
+font-family: 'Press Start 2P';
+*/
+
 body{
     background-color: rgb(31, 41, 51);
 }
 .navbar{
     background-color: rgb(25, 35, 45) !important;
+    font-family: 'Concert One', sans-serif;
 }
 h1{
     color: #DFDFDF;
-    font-family: Alata !important;
+    /*font-family: Alata !important;*/
+    font-family: 'Concert One', sans-serif;
 }
 .icon{
     width: 45px;
 }
 p{
     color: #DFDFDF !important;
-    font-family: Alata !important;
+    /*font-family: Alata !important;*/
+    font-family: 'Concert One', sans-serif;
 }
 .footer{
     background-color: rgb(25, 35, 45) !important;
+    font-family: 'Concert One', sans-serif;
 }
 .card{
     background-color: rgb(25, 35, 45) !important;
+    font-family: 'Concert One', sans-serif;
 }
 #main{
     max-width: 80%;
@@ -40,7 +51,6 @@ p{
 }
 #main h5{
     color: #DFDFDF !important;
-    font-family: Alata !important;
 }
 .capture{
     max-width: 100%;
