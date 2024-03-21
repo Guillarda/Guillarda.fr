@@ -23,7 +23,7 @@ body{
     background-color: rgb(25, 35, 45) !important;
     font-family: 'Concert One', sans-serif;
 }
-h1{
+h1, h2, h3{
     color: #DFDFDF;
     /*font-family: Alata !important;*/
     font-family: 'Concert One', sans-serif;
@@ -61,4 +61,7 @@ p{
 .carte{
     min-width: 50%;
     max-width: 80%;
+}
+.picme{
+    max-width: 50vh !important;
 }
